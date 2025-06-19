@@ -19,3 +19,10 @@ print(e)
 # count
 # task. Count the number of digits 10 in list e
 print(e.count(10))
+
+# extend(iterable)
+# task. Add symbols to list
+first_list = []
+additional_symbol = input('Insert symbol: ')
+first_list.extend(additional_symbol)
+print(first_list)
