@@ -38,13 +38,14 @@ list_for_index.insert(0,1)
 print(list_for_index)
 
 # pop([i])
-# task.
+# task. Remove symbol 'r' with index 0 in list list_for_pop
 list_for_pop = ['r', 'c', 'e', 'f', 'y', 'r', 'sdf', 'zxc', 'cvb']
 list_for_pop.pop(0)
 print(list_for_pop)
 
 # remove(x) - removes the specified element from the list
-# task.
+# task. Remove symbol 't' in list list_for_remove
 list_for_remove = ['t', 'f', 'z', 'g', 'e', 'v', 't', 'a']
 list_for_remove.remove('t')
 print(list_for_remove)
+
