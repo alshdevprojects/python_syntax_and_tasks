@@ -26,3 +26,26 @@ first_list = []
 additional_symbol = input('Insert symbol: ')
 first_list.extend(additional_symbol)
 print(first_list)
+
+# index(x[, start[, end]])
+# task. Find element 'a' in list list_for_index
+list_for_index = ['w', 'r', 3, 'a', 'd', 'v,', 9, 'e', 'x']
+print(list_for_index.index('a'))
+
+# insert(i, x)
+# task. Insert 1 into list list_for_index at index 0
+list_for_index.insert(0,1)
+print(list_for_index)
+
+# pop([i])
+# task. Remove symbol 'r' with index 0 in list list_for_pop
+list_for_pop = ['r', 'c', 'e', 'f', 'y', 'r', 'sdf', 'zxc', 'cvb']
+list_for_pop.pop(0)
+print(list_for_pop)
+
+# remove(x) - removes the specified element from the list
+# task. Remove symbol 't' in list list_for_remove
+list_for_remove = ['t', 'f', 'z', 'g', 'e', 'v', 't', 'a']
+list_for_remove.remove('t')
+print(list_for_remove)
+
