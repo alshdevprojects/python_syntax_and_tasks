@@ -14,3 +14,8 @@ dict_for_copy_with_list = {'a': [1, 2, 3], 'b': [3, 8]}
 dict_for_copy_with_list_new = dict_for_copy_with_list.copy()
 dict_for_copy_with_list_new['b'].append(10)
 print('New dictionary with a new value for the sheet at key "b": ', dict_for_copy_with_list_new)
+
+# get()
+# task. Get the value of one of the dictionary keys
+dict_for_get = {'a': 1, 'k': 3, 'f': 8, 'e': 7}
+print('Value of key "a": ', dict_for_get.get('a'))
