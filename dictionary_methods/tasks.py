@@ -40,3 +40,17 @@ dict_for_values = {'first': 4, 'second':1, 'third':3}
 
 for j in dict_for_values.values():
     print('Value: ', j)
+
+# pop()
+# task.Output the value of key 1. And try to output the non-existent value of key 4
+# and write that the message does not exist.
+dict_for_pop = {'first': 4, 'second':1, 'third':3}
+print('Value of first', dict_for_pop.pop('first'), 'dict_for_pop after pop()', dict_for_pop)
+print(dict_for_pop.pop('fourth', 'The value does not exist'))
+
+# popitem()
+# task. Delete the last pair of keys values.
+dict_for_popitem = {'first': 4, 'second':1, 'third':3}
+dict_for_popitem.popitem()
+print('dict_for_popitem after popitem()', dict_for_popitem)
+
