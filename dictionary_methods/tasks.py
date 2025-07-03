@@ -68,7 +68,7 @@ print('The value of key "second": ', dict_for_setdefault.setdefault('second'))
 dict_for_setdefault.setdefault('fifth')
 print('Dictionary with default value: ', dict_for_setdefault)
 
-# classmethod dict.fromkeys
+# classmethod dict.fromkeys()
 # task. Create a new dictionary with default value 1
 list_for_keys = ['first', 'second', 'third']
 default_value = 1
