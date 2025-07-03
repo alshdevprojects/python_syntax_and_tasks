@@ -27,7 +27,7 @@ dict_for_items = {'first': 4, 'second':1, 'third':3}
 for i,j in dict_for_items.items():
     print('Key value: ', i,j)
 
-# key()
+# keys()
 # task. Output dictionary keys
 dict_for_keys = {'first': 4, 'second':1, 'third':3}
 
@@ -54,3 +54,23 @@ dict_for_popitem = {'first': 4, 'second':1, 'third':3}
 dict_for_popitem.popitem()
 print('dict_for_popitem after popitem()', dict_for_popitem)
 
+# update()
+# task. Update dictionary values
+dict_for_update_first = {'first': 4, 'second':1, 'third':3}
+dict_for_update_second = {'first': 20, 'fifth': 10}
+dict_for_update_first.update(dict_for_update_second)
+print('Updated dictionary: ', dict_for_update_first)
+
+# setdefault()
+# task. Return the value of key "second" and the default value if the key is not in the dictionary
+dict_for_setdefault = {'first': 4, 'second':1, 'third':3}
+print('The value of key "second": ', dict_for_setdefault.setdefault('second'))
+dict_for_setdefault.setdefault('fifth')
+print('Dictionary with default value: ', dict_for_setdefault)
+
+# classmethod dict.fromkeys
+# task. Create a new dictionary with default value 1
+list_for_keys = ['first', 'second', 'third']
+default_value = 1
+dict_for_dict_fromkeys = dict.fromkeys(list_for_keys, default_value)
+print('New dictionary with default value 1', dict_for_dict_fromkeys)
