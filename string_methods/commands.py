@@ -1,11 +1,11 @@
 # 1. capitalize() - returns a copy of the string with the first letter converted to uppercase and the rest converted
-#               to lowercase.
+#                   to lowercase.
 
 # 2. casefold() - returns a copy of the string with the case folded. This is similar to converting to lowercase,
-#             but more aggressive.
+#                 but more aggressive.
 
 # 3. center(width[, fillchar]) - centers the specified string, padding it to the right and left of the specified
-#                             length with the specified character.
+#                                length with the specified character.
 
 # 4. count(sub[, start[, end]]) - given a string, returns the number of non-overlapping occurrences of the specified
 #                              substring.
