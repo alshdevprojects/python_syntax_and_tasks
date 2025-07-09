@@ -32,3 +32,10 @@ print('Encoded information', str_for_encode.encode())
 # task. Find 'information'
 str_for_endswith = 'Secret information'
 print('Search result', str_for_endswith.endswith('information'))
+
+# 7. expandtabs(tabsize)
+# task. Return a copy of the string with tabs replaced with spaces
+str_for_expandtabs = ('\tgh\tghj\tgyuik')
+print(str_for_expandtabs.expandtabs(tabsize=8))
+print(str_for_expandtabs.expandtabs(tabsize=3))
+

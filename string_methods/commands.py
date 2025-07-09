@@ -8,20 +8,20 @@
 #                                length with the specified character.
 
 # 4. count(sub[, start[, end]]) - given a string, returns the number of non-overlapping occurrences of the specified
-#                              substring.
+#                                 substring.
 
 # 5. encode(encoding="utf-8", errors="strict") - encodes a string to bytes/bytestring using the registered codec.
 
 # 6. endswith(suffix[, start[, end]]) - returns True or False indicating whether the string ends with the specified
-#                                    suffix.
+#                                       suffix.
 
-# 7. expandtabs(tabsize=8) - returns a copy of the string with tabs replaced with spaces.
+# 7. expandtabs(tabsize) - returns a copy of the string with tabs replaced with spaces.
 
 # 8. find(sub[, start[, end]]) - searches for a substring in a string. Returns the lowest index at which the start
-#                             of the specified substring is found in the original string.
+#                                of the specified substring is found in the original string.
 
 # 9. format(args, *kwargs) - returns a formatted copy of the string. The method replaces markers enclosed in curly
-#                         braces {} with the values from the passed arguments.
+#                            braces {} with the values from the passed arguments.
 
 # 10. index(sub[, start[, end]]) - returns the lowest index at which the start of the specified substring is found
 #                                  in the original string.
