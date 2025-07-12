@@ -40,13 +40,13 @@ print(str_for_expandtabs.expandtabs(tabsize=8))
 print(str_for_expandtabs.expandtabs(tabsize=3))
 
 # 8. find(sub[, start[, end]])
-# task.
+# task. Find 'cvh'
 str_for_find = 'fcvhjkmnjygn'
 print(str_for_find.find('cvh'))
 print(str_for_find.find('cvh', 0, 10))
 
 # 9. format(args, *kwargs)
-# task.
+# task. Return a formatted copy of the string
 print('{}-{}-{}'.format(1, 2, 3))
 print('{}-{}-{}'.format(*[1, 2, 3]))
 print('{a}-{b}-{c}'.format(b=10, a=1, c=0))
@@ -54,7 +54,7 @@ import datetime
 print('{a}-{b}-{c}'.format(b=10, a=1, c=datetime.datetime.now()))
 
 # 10. index(sub[, start[, end]])
-# task.
+# task. Return index 'cvh'
 str_for_index = 'fcvhjkmnjygn'
 print(str_for_index.find('cvh'))
 print(str_for_index.find('cvh', 0, 10))
