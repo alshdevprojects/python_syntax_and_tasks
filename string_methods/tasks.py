@@ -59,3 +59,11 @@ str_for_index = 'fcvhjkmnjygn'
 print(str_for_index.find('cvh'))
 print(str_for_index.find('cvh', 0, 10))
 
+# 11. isalnum()
+# task. Return true 0r false
+str1_for_isalnum = '12345'
+str2_for_isalnum = 'qwertyu'
+str3_for_isalnum = '$%^&'
+str4_for_isalnum = '1'
+print('first: ', str1_for_isalnum.isalnum(), 'second: ', str2_for_isalnum.isalnum(),
+      'third:', str3_for_isalnum, 'fourth:', str4_for_isalnum.isalnum())
