@@ -66,4 +66,35 @@ str2_for_isalnum = 'qwertyu'
 str3_for_isalnum = '$%^&'
 str4_for_isalnum = '1'
 print('first: ', str1_for_isalnum.isalnum(), 'second: ', str2_for_isalnum.isalnum(),
-      'third:', str3_for_isalnum, 'fourth:', str4_for_isalnum.isalnum())
+      'third:', str3_for_isalnum.isalnum(), 'fourth:', str4_for_isalnum.isalnum())
+
+# 12. isalpha()
+# task. Return true 0r false
+str1_for_isalpha = ''
+str2_for_isalpha = 'zxcvbn'
+str3_for_isalpha = '456zxc'
+str4_for_isalpha = '!!!!'
+print('first: ', str1_for_isalpha.isalpha(), 'second: ', str2_for_isalpha.isalpha(),
+      'third:', str3_for_isalpha.isalpha(), 'fourth:', str4_for_isalpha.isalpha()
+      )
+
+# 13. isascii()
+# task. Check if there are strings with only ASCII.
+str1_for_isascii = ''
+str2_for_isascii = 'flower'
+str3_for_isascii = 'цветок'
+print("Check for ASCII in '':", str1_for_isascii.isascii(),
+      "Check for ASCII in 'flower':", str2_for_isascii.isascii(),
+      "Check for ASCII in 'цветок':", str3_for_isascii.isascii()
+      )
+
+# 14. isdigit()
+# task.  Check if there are only numbers in a line
+str1_for_isdigit = ''
+str2_for_isdigit = 'flower'
+str3_for_isdigit = '123'
+str3_for_isdigit = '123flower'
+print("Check the numbers in '':", str1_for_isdigit.isdigit(),
+      "Check the numbers in 'flower':", str2_for_isdigit.isdigit(),
+      "Check the numbers in '123':", str3_for_isdigit.isdigit(),
+      )
