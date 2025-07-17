@@ -98,3 +98,25 @@ print("Check the numbers in '':", str1_for_isdigit.isdigit(),
       "Check the numbers in 'flower':", str2_for_isdigit.isdigit(),
       "Check the numbers in '123':", str3_for_isdigit.isdigit(),
       )
+
+# 15. isidentifier()
+# task. Check if a string is an identifier
+str1_for_isidentifier = 'cat'
+str2_for_isidentifier = 'continue'
+str3_for_isidentifier = ''
+str4_for_isidentifier = '123'
+print("Check isidentifier() in 'cat':", str1_for_isidentifier.isidentifier(),
+      "Check isidentifier() in 'continue':", str2_for_isidentifier.isidentifier(),
+      "Check isidentifier() in '':", str3_for_isidentifier.isidentifier(),
+      "Check isidentifier() in '123':", str4_for_isidentifier.isidentifier()
+      )
+
+# 16. islower()
+# task. Check whether a string contains only lowercase characters
+str1_for_islower = 'DbNiuy'
+str2_for_islower = '1234fghn'
+str3_for_islower = 'uytgfdfghj'
+print("Check islower in 'DbNiuy':", str1_for_islower.islower(),
+      "Check islower in '1234fghn':", str2_for_islower.islower(),
+      "Check islower in 'uytgfdfghj':", str3_for_islower.islower(),
+      )
